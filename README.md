@@ -1,11 +1,27 @@
-# Awesome-Underfitting
+# Awesome Underfitting 🧠📉
+> A curated list of resources, variants, diagnostics, and mitigations for underfitting in machine learning, deep learning, and foundation models.
+
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Underfitting Banner" width="100%">
+</p>
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Underfitting/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+---
+
 ## Underfitting in AI: Evolution, Variants, Types, & Applications
 
 Underfitting is a foundational phenomenon in artificial intelligence and machine learning that occurs when a model is unable to capture the underlying structure of the training data. This happens because the model is structurally too simple, or the training process is too constrained, to learn the complex mathematical relationships mapping inputs to outputs. An underfit model exhibits high bias and low variance, resulting in poor performance on both the training dataset and unseen validation data. Over the evolution of AI, understanding and diagnosing underfitting has shifted from tuning simple parametric statistical boundaries to managing massive foundation models constrained by training bottlenecks, token filtering regimes, and safety boundaries.
 
 ---
 
-## 1. The Chronological Evolution
+## 1. The Chronological Evolution ⏳
 
 The manifestation and mitigation of underfitting have transitioned from basic linear parameter tracking to complex structural capacity bottlenecks in multi-billion parameter foundation architectures.
 
@@ -24,7 +40,7 @@ flowchart LR
 
 ---
 
-## 2. Core Functional & Optimization Variants
+## 2. Core Functional & Optimization Variants ⚙️
 
 Underfitting manifests through distinct mathematical and structural anomalies across the neural network optimization pipeline.
 
@@ -36,7 +52,7 @@ Underfitting manifests through distinct mathematical and structural anomalies ac
 
 ---
 
-## 3. Data-Modality & Training Paradigm Manifestations
+## 3. Data-Modality & Training Paradigm Manifestations 📊
 
 Depending on the input types and learning frameworks deployed across the enterprise stack, underfitting triggers specific behavioral failures.
 
@@ -48,7 +64,7 @@ Depending on the input types and learning frameworks deployed across the enterpr
 
 ---
 
-## 4. Production Diagnostics & Mitigation Protocols
+## 4. Production Diagnostics & Mitigation Protocols 🛠️
 
 Detecting and repairing underfitting inside live commercial model-building infrastructure requires balancing architecture profiling with computational schedules.
 
@@ -59,7 +75,7 @@ Detecting and repairing underfitting inside live commercial model-building infra
 
 ---
 
-## 5. Frontier Real-World AI Case Studies
+## 5. Frontier Real-World AI Case Studies 🚀
 
 | Case Study | Application & Details | Year | First Used / Paper Link |
 | :--- | :--- | :--- | :--- |
