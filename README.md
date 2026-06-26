@@ -82,3 +82,17 @@ Detecting and repairing underfitting inside live commercial model-building infra
 | [**Automated Document Layout & Chart Auditing Failures**](./details/document_layout_chart_auditing_failures.md) | Financial institutions deploy multi-modal models to audit complex multi-column PDFs and financial charts. If the network experiences underfitting, it consistently skips lines or misinterprets decimal tables because it lacks the dense spatial attention capacity to parse intersecting coordinate layouts. | 2022 | [Pix2Struct: Screenshot Parsing as Pretraining for Visual Language Understanding](https://arxiv.org/abs/2210.03347) |
 | [**Autonomous Driving Perception System Glare Stalls**](./details/autonomous_driving_perception_glare_stalls.md) | Computer vision networks classify roadside obstacles under harsh driving conditions. An underfit network fails to generalize when encountering rare edge cases—like detecting a pedestrian during a midnight rainstorm with high headlight glare—because its feature maps are too simple to isolate subtle contrast cues. | 2016 | [End to End Learning for Self-Driving Cars](https://arxiv.org/abs/1604.07316) |
 | [**Industrial Defect Screening Pipelines**](./details/industrial_defect_screening_pipelines.md) | Camera arrays screen high-speed manufacturing lines for microscopic circuit board fractures. If the model suffers from underfitting due to aggressive data downsampling, it returns massive false-negative streams, passing damaged inventory down the conveyor belt because it cannot track micro-pixel color transitions. | 2019 | [MVTec AD — A Comprehensive Real-World Dataset for Unsupervised Anomaly Detection](https://link.springer.com/article/10.1007/s11263-020-01400-4) |
+
+---
+
+## Star History
+
+<div align="center">
+<a href="https://www.star-history.com/?repos=ishandutta2007%2FAwesome-Underfitting&type=date&legend=bottom-right">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Underfitting&type=date&theme=dark&legend=bottom-right" />
+<source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Underfitting&type=date&legend=bottom-right" />
+<img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Underfitting&type=date&legend=bottom-right" />
+</picture>
+</a>
+</div>
