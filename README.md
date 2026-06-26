@@ -10,8 +10,10 @@ Underfitting is a foundational phenomenon in artificial intelligence and machine
 The manifestation and mitigation of underfitting have transitioned from basic linear parameter tracking to complex structural capacity bottlenecks in multi-billion parameter foundation architectures.
 
 ```mermaid
-[Parametric Linear Limits] ----> [Deep Learning Structural Capacity] ----> [Modern Alignment & Token Bottlenecks]
-(Rigid Low-Degree Equations)      (Vanishing Gradients / Dropout Caps)         (SFT Refusals / Sub-Optimal Scaling)
+flowchart LR
+    A["Parametric Linear Limits<br/>(Rigid Low-DDegree Equations)"]
+    --> B["Deep Learning Structural Capacity<br/>(Vanishing Gradients / Dropout Caps)"]
+    --> C["Modern Alignment & Token Bottlenecks<br/>(SFT Refusals / Sub-Optimal Scaling)"]
 ```
 
 *   **The Parametric Linear Limits Era (Traditional ML)**
